@@ -5,6 +5,7 @@ Important college information (exam form dates, fee deadlines, placement drives,
 Notices are long, unstructured and often posted as images or PDFs
 Most notices are irrelevant to a given student's branch, year or CGPA
 There is no single place that tracks "what do I need to do, and by when?"
+
 The Solution
 
 NoticeFlow ingests notices from multiple sources, extracts the actionable details with an LLM, validates them against a strict schema, filters them by each student's profile, and pushes only the relevant items to the student's calendar and reminders. Low-confidence extractions go to a human reviewer instead of being silently trusted.
